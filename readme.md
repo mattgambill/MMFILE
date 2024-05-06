@@ -22,7 +22,7 @@ Notes:
                           ./+o+-       matt@edison
                   yyyyy- -yyyyyy+      OS: Ubuntu 24.04 noble
                ://+//////-yyyyyyo      Kernel: x86_64 Linux 6.8.0-31-generic
-           .++ .:/++++++/-.+sss/`      Uptime: 4h 18m
+           .++ .:/++++++/-.+sss/`      Uptime: 3m
          .:++o:  /++++++++/:--:/-      Packages: 1630
         o:+o+:++.`..```.-/oo+++++/     Shell: mmfile
        .:+o:+o/.          `+sssoo+/    Resolution: 1920x1200
@@ -33,13 +33,13 @@ Notes:
        .+.o+oo:.          `oddhhhh+    Icon Theme: Adwaita
         \+.++o+o``-````.:ohdhhhhh+     Font: Cantarell 11
          `:o+++ `ohhhhhhhhyo++os:      Disk: 14G / 469G (4%)
-           .o:`.syhhhhhhh/.oo++o`      CPU: 11th Gen Intel Core i7-1185G7 @ 8x 4.8GHz [51.0°C]
+           .o:`.syhhhhhhh/.oo++o`      CPU: 11th Gen Intel Core i7-1185G7 @ 8x 4.8GHz [44.0°C]
                /osyyyyyyo++ooo+++/     GPU: Iris Xe Graphics
-                   ````` +oo+++o\:     RAM: 6444MiB / 15701MiB
+                   ````` +oo+++o\:     RAM: 2718MiB / 15701MiB
                           `oo++.      
-Parent PID: 41146
-Child PID: 41146
-Sat May  4 23:10:23 2024
+Parent PID: 5238
+Child PID: 5516
+Sun May  5 17:14:21 2024
 
 Reading Map Values:
 0xDEADC0DE
@@ -47,8 +47,8 @@ Reading Map Values:
 0xDEADF0DF
 0xBEEFBEAD
 
-Child PID: 41146
-Sat May  4 23:10:24 2024
+Child PID: 5516
+Sun May  5 17:14:22 2024
 
 Reading Map Values:
 0xDEADC0DE
@@ -56,8 +56,8 @@ Reading Map Values:
 0xDEADF0DF
 0xBEEFBEAD
 
-Child PID: 41146
-Sat May  4 23:10:25 2024
+Child PID: 5516
+Sun May  5 17:14:23 2024
 
 Reading Map Values:
 0xDEADC0DE
@@ -65,28 +65,29 @@ Reading Map Values:
 0xDEADF0DF
 0xBEEFBEAD
 
-Parent PID: 41146 Update buf[1]:
-Sat May  4 23:10:26 2024
+Parent PID: 5238 Update buf[1]:
+Sun May  5 17:14:24 2024
 
-Child PID: 41146
-Sat May  4 23:10:26 2024
+Child PID: 5516
+Sun May  5 17:14:24 2024
+
+Reading Map Values:
+0xDEADC0DE
+0xBEEFFEED
+0xDEADF0DF
+0xBEEFBEAD
 
 0xBAAAAAAD
 
-Reading Map Values:
-0xDEADC0DE
-0xBAAAAAAD  **CHANGED** 
-0xDEADF0DF
-0xBEEFBEAD
-
-Child PID: 41146
-Sat May  4 23:10:27 2024
+Child PID: 5516
+Sun May  5 17:14:25 2024
 
 Reading Map Values:
 0xDEADC0DE
 0xBAAAAAAD
 0xDEADF0DF
 0xBEEFBEAD
+
 ```
 # Conclusion
 The code provides an effective example for:

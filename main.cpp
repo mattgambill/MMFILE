@@ -11,6 +11,7 @@
 #include<ctime>
 
 #include "write_bin_file.hpp"
+
 std::string get_current_time()
 {
     auto now = std::chrono::system_clock::now();
@@ -87,7 +88,7 @@ int main()
             // Periodically read memory map.
             for(int i = 5; i > 0; i--)
             {   
-                std::cout << "Child PID: " << p << std::endl;
+                std::cout << "Child PID: " << getpid() << std::endl;
                 std::cout<< get_current_time() << std::endl;
                 std::cout << "Reading Map Values:\n";
                 for(int i=0; i < num_words; i++)
@@ -102,10 +103,10 @@ int main()
         else
         {
             // Wait for some time and then write a value to the memory map.
-            std::cout << "Parent PID: " << p << std::endl;
+            std::cout << "Parent PID: " << getpid() << std::endl;
             sleep(3);
             // Write a value
-            std::cout << "Parent PID: " << p << " Update buf[1]:"<<std::endl;
+            std::cout << "Parent PID: " << getpid() << " Update buf[1]:"<<std::endl;
             std::cout<< get_current_time() << std::endl;
             buf[1] = 0xBAAAAAAD;
             printf("0x%X\n\n",buf[1]);
